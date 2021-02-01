@@ -10,7 +10,8 @@ Steps to run
 - Copy the credentials and config 
 - Copy SSH keys to ssh folder
 - Clone Globality - globality-bot git repo into the src folder
-- run docker build -t slackbot .
+- run docker build -t slackbot . ( This would build the image)
+- run container as - docker run -d slackbot
 - run docker exec -it <container_id> bash
 - To run slack bot  - goto globality-bots/functions/ 
 - run mkvirtualenv slackbot
