@@ -1,0 +1,1 @@
+clone globality-bot here and make changes to according to your tasks and run
