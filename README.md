@@ -15,5 +15,5 @@ Steps to run
 - run docker exec -it <container_id> bash
 - To run slack bot  - goto globality-bots/functions/ 
 - run mkvirtualenv slackbot
-- run eval($ botoenv -p automation)
+- run  eval $(botoenv -p automation)
 - run your test case as = python-lambda-local -t 600 -f handler main.py test/fixtures/event-status.json 
