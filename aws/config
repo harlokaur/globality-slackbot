@@ -1,0 +1,14 @@
+[default]
+region = us-east-1
+
+[profile me]
+region = us-east-1
+source_profile = default
+
+[profile development]
+region = us-east-1
+source_profile = me
+
+[profile automation]
+region = us-east-1
+source_profile = me
