@@ -17,3 +17,6 @@ Steps to run
 - run mkvirtualenv slackbot
 - run  eval $(botoenv -p automation)
 - run your test case as = python-lambda-local -t 600 -f handler main.py test/fixtures/event-status.json 
+
+
+NOTE - please use docker v19.03 and not the latest 
